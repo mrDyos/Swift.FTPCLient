@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FTPClient_Example' do
+  pod 'FTPClient', :path => '../'
+
+  target 'FTPClient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
