@@ -10,6 +10,8 @@ import Foundation
 
 public class FTPClient
 {
+    public init() { }
+    
     public func PrintQ()
     {
         print("q")

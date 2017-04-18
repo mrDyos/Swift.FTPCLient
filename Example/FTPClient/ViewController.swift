@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     @IBAction func button_Test_OnTouchDown(_ sender: Any)
     {
         let q = FTPClient()
+        q.PrintQ()
     }
 }
 
